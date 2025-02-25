@@ -1,10 +1,8 @@
-import Homepage from "@/components/Homepage";
 import Intro from "@/components/Intro";
-import { Card } from "@/components/ui/card";
+import About from "@/components/About";
 import Screen from "@/layout/Screen";
 import LocalTime from "@/utils/LocalTime";
-import Image from "next/image";
-
+import Socials from "@/components/Socials";
 export default function Home() {
 
 
@@ -14,7 +12,8 @@ export default function Home() {
       <Screen>
         <div>
           <Intro />
-          
+          <About />
+          <Socials />
         </div>
       </Screen>
     </div>

@@ -7,7 +7,7 @@ const Intro = () => {
   return (
     <div className="p-4">
       <Card variant="corners">
-        <CardContent className="text-white">
+        <CardContent className="text-[#E1E3E5]">
           <div className="flex flex-col md:flex-row items-center gap-4 md:gap-10">
             <div className="flex-shrink-0">
               <Image
