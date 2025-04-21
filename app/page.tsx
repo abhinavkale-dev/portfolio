@@ -6,13 +6,16 @@ import Skills from "@/components/Skills";
 import ElasticLine from "@/fancy/components/physics/elastic-line";
 import Projects from "@/components/Projects";
 import Contact from "@/components/Contact";
+import Header from "@/components/Header";
 
 export default function Home() {
   return(
     <div>
       <LocalTime />
       <Screen>
-        <div className="flex flex-col gap-2">
+        <div className="flex flex-col gap-2 pt-4">
+          <Header />
+          
           <section>
             <Intro />
           </section>
