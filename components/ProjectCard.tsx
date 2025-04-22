@@ -74,10 +74,10 @@ export function ProjectCard({
       
       <CardContent className="mt-auto px-6">
         {tags && tags.length > 0 && (
-          <div className="mt-4 flex flex-wrap gap-2">
+          <div className="mt-4 flex flex-wrap gap-1">
             {tags?.map((tag) => (
               <Badge
-                className="px-2 py-1 text-xs bg-[#1F1F1F] hover:bg-[#2A2A2A] text-[#E1E3E5]"
+                className="px-1.5 py-0.5 text-[10px] bg-[#1F1F1F] hover:bg-[#2A2A2A] text-[#E1E3E5]"
                 variant="secondary"
                 key={tag}
               >
@@ -93,7 +93,7 @@ export function ProjectCard({
           <div className="flex flex-row flex-wrap items-start gap-3">
             {links?.map((link, idx) => (
               <Link href={link?.href} key={idx} target="_blank" rel="noopener noreferrer">
-                <Badge key={idx} className="flex gap-2 px-3 py-1 text-xs bg-[#1F1F1F] hover:bg-[#2A2A2A] text-[#64FFDA]">
+                <Badge key={idx} className="flex gap-2 px-1.5 py-0.5 text-[10px] bg-[#1F1F1F] hover:bg-[#2A2A2A] text-[#64FFDA]">
                   {link.icon}
                   {link.type}
                 </Badge>

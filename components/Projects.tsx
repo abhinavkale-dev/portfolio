@@ -9,7 +9,7 @@ const Projects = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         <ProjectCard
           title="Cineverse"
-          description="A platform for discovering and exploring movies and TV shows. Immerse yourself in endless entertainment with Cineverse."
+          description="A platform for discovering and exploring movies and TV shows."
           href="https://cineverse-rho.vercel.app/"
           link="https://cineverse-rho.vercel.app/"
           repoUrl="https://github.com/abhinavkale-dev/Cineverse"
